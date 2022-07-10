@@ -43,6 +43,7 @@ export const CartItem = ({ id, quantity }: CartItemProps) => {
                 size="sm"
                 onClick={() => removeFromCart(item.id)}
             >
+                {/* converts to x character */}
                 &times;
             </Button>
         </Stack>
